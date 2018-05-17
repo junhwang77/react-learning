@@ -12,7 +12,7 @@ class App extends Component {
     otherState: 'some other value'
   }
 
-  switchNameHandler = (newName) => {
+  switchNameHandler = ( newName ) => {
     //console.log('was clicked')
     //this.state.persons[0].name = 'Maximilian'
     this.setState( {
